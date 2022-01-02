@@ -1,0 +1,94 @@
+/*PC*/
+@media (min-width: 1024px){
+
+}
+
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1023px){
+    .btn {
+        padding: 16px 16px;
+    }
+    .form-control {
+        padding: 18px;
+    }
+    
+    .footer-sociallist {
+        font-size: 42px;
+    }
+
+    .contact-content {
+        line-height: 2rem;
+    }
+}
+
+/*Mobibe*/
+@media (max-width: 739px){
+    #nav {
+        display: block;
+    }
+
+    #nav >li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: inherit; /*reset ve gia tri mac dinh -> dud ve phan tu con mac dinh*/
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 46px;
+
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    /* #content .member-list {
+        display: block;
+    } */
+
+    .row {
+        display: block;
+    }
+
+    #contact .item-mobile,
+    #tour .item-mobile,
+    #content .item-mobile{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    #content .contact-content {
+        font-size: 16px;
+        line-height: 1.6rem;
+        text-align: center;
+    }
+
+    #content .email-mobile {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
